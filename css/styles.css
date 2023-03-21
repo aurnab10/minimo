@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 5% 6%;
+}
+header .logo{width: 10vw;}
+header .logo img{
+    width: 100%;
+    height: auto;
+}
+header nav{
+    width: 64%;
+    display: flex;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    width: 100%;
+}
+header nav ul li{margin-left: auto;}
+header nav ul li a{
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.17vw;
+}
+.banner{
+    margin: auto;
+    margin-bottom: 8%;
+    width: 90%;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+.photodiary{
+    width: 75%;
+    margin: auto;
+}
+h3{
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1.17vw;
+    text-transform: uppercase;
+    margin-bottom: 2.5vw;
+}
+h3 a{
+    text-decoration: none;
+    color: #b4ad9e;
+}
+h1{
+    color: #626262;
+    font-size: 2.5vw;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: calc(10vw/3);
+}
+p{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.17vw;
+    font-weight: 400;
+    margin-bottom: calc(25vw/6);
+}
+.lifestyle{
+    width: 75%;
+    margin: 11.25% 12.5% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.lifestyle .item{
+    width: 35vw;
+    margin-bottom: 11.25vw;
+}
+.lifestyle .item img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2.5vw;
+}
+.signUp{
+    background-color: #f0f0f0;
+}
+.signUp .newsletter{
+    padding: 6.25% 0;
+    text-align: center;width: 31%;
+    margin: auto;
+}
+.signUp .newsletter h1{
+    color: #626262;
+    font-size: 2.5vw;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: calc(85vw/12);
+}
+.signUp .newsletter .email{
+    display: flex;
+    position: relative;
+}
+.signUp .newsletter .email input{
+    width: 100%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid;
+    padding: 1.25%;
+    font-size: 1.17vw;
+    line-height: 1.5;
+}
+.signUp .newsletter .email input::placeholder{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.17vw;
+    font-weight: 400;
+}
+.signUp .newsletter .email input:focus{
+    outline: none;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 1.17vw;
+    line-height: 1.5;
+}
+.signUp .newsletter .email button{
+    border: none;
+    background: transparent;
+    position: absolute;
+    margin-left: 97%;
+    right: 0;
+    margin-top: 2%;
+}
+.signUp .newsletter .email button a{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.17vw;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.signUp .newsletter .email button a i{
+    color: #626262;
+}
+.load{
+    text-align: center;
+    margin-bottom: 16%;
+}
+.load button{
+    padding: calc(5%/3) calc(35%/12);background: transparent;
+    border: calc(1vw/12) solid;
+    border-color: #626262;
+}
+.load button a{
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.7vw;
+    font-weight: 400;
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: space-between;background-color: #f0f0f0;
+    padding: calc(10%/3) 5% 3.75% 12.5%;
+}
+footer .terms{
+    display: flex;
+    width: calc(50vw/3);
+    justify-content: space-between;
+}
+footer .terms p{
+    margin-bottom: 0;
+}
+footer .terms p a{
+    color: #000000;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.17vw;
+    font-weight: 400;
+    text-decoration: none;
+}
+footer .socials{
+    width: calc(35vw/3);
+}
+
+footer .socials ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: auto;
+}
+
+footer .socials ul li a{
+    color: #000000;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.17vw;
+    font-weight: 400;
+    text-decoration: none;
+}
+footer .socials ul li a i{
+    color: #626262;
+}
