@@ -104,6 +104,8 @@ p{
 .signUp .newsletter .email{
     display: flex;
     position: relative;
+    align-items: center;
+    justify-content: center;
 }
 .signUp .newsletter .email input{
     width: 100%;
@@ -134,7 +136,6 @@ p{
     position: absolute;
     margin-left: 97%;
     right: 0;
-    margin-top: 2%;
 }
 .signUp .newsletter .email button a{
     font-family: 'Playfair Display', serif;
