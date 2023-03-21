@@ -7,7 +7,9 @@ header{
     justify-content: space-between;
     margin: 5% 5% 6%;
 }
-header .logo{width: 10vw;}
+header .logo{
+    width: 10vw;
+}
 header .logo img{
     width: 100%;
     height: auto;
@@ -23,7 +25,9 @@ header nav ul{
     justify-content: end;
     width: 100%;
 }
-header nav ul li{margin-left: auto;}
+header nav ul li{
+    margin-left: auto;
+}
 header nav ul li a{
     color: #626262;
     text-decoration: none;
@@ -91,7 +95,8 @@ p{
 }
 .signUp .newsletter{
     padding: 6.25% 0;
-    text-align: center;width: 31%;
+    text-align: center;
+    width: 31%;
     margin: auto;
 }
 .signUp .newsletter h1{
@@ -103,17 +108,19 @@ p{
 }
 .signUp .newsletter .email{
     display: flex;
-    position: relative;
     align-items: center;
+    position: relative;
 }
 .signUp .newsletter .email input{
     width: 100%;
     border: none;
+    outline: none;
     background: transparent;
     border-bottom: 1px solid;
     padding: 1.25%;
     font-size: 1.17vw;
     line-height: 1.5;
+    transition: 0.1s ease-in-out;
 }
 .signUp .newsletter .email input::placeholder{
     color: #626262;
@@ -122,29 +129,28 @@ p{
     font-weight: 400;
 }
 .signUp .newsletter .email input:focus{
-    outline: none;
     color: #626262;
     font-family: 'Playfair Display', serif;
-    font-weight: 400;
-    font-size: 1.17vw;
-    line-height: 1.5;
+    transform: scale(1.05);
 }
-.signUp .newsletter .email button{
-    border: none;
-    background: transparent;
-    position: absolute;
-    margin-left: 97%;
-    right: 0;
-}
-.signUp .newsletter .email button a{
+.signUp .newsletter .email a{
     font-family: 'Playfair Display', serif;
     font-size: 1.17vw;
     font-weight: 400;
     text-decoration: none;
 }
 
-.signUp .newsletter .email button a i{
+.signUp .newsletter .email a i{
     color: #626262;
+    transition: 0.1s ease-in-out;
+    position: absolute;
+    bottom: 30%;
+    transform: translate(0, 15%);
+    margin-left: -1.0239vw;
+}
+.signUp .newsletter .email a i:hover{
+    color: indianred;
+    transform: scale(1.5);
 }
 .load{
     text-align: center;
@@ -154,6 +160,11 @@ p{
     padding: calc(5%/3) calc(35%/12);background: transparent;
     border: calc(1vw/12) solid;
     border-color: #626262;
+    transition: 0.1s ease-in-out;
+}
+.load button:hover{
+    background-color: #f0f0f0;
+    transform: scale(1.1);
 }
 .load button a{
     color: #626262;
