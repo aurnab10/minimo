@@ -105,7 +105,6 @@ p{
     display: flex;
     position: relative;
     align-items: center;
-    justify-content: center;
 }
 .signUp .newsletter .email input{
     width: 100%;
