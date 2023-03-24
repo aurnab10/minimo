@@ -35,6 +35,11 @@ header nav ul li a{
     font-family: 'Playfair Display', serif;
     font-size: 1.17vw;
 }
+
+header nav ul li a:hover{
+    color: indianred;
+}
+
 .banner{
     margin: auto;
     margin-bottom: 8%;
@@ -60,6 +65,11 @@ h3 a{
     text-decoration: none;
     color: #b4ad9e;
 }
+
+h3 a:hover{
+    color: indianred;
+}
+
 h1{
     color: #626262;
     font-size: 2.5vw;
@@ -100,7 +110,7 @@ p{
     margin: auto;
 }
 .signUp .newsletter h1{
-    color: #626262;
+    color: #333333;
     font-size: 2.5vw;
     font-weight: 400;
     font-family: 'Playfair Display', serif;
@@ -112,6 +122,7 @@ p{
     position: relative;
 }
 .signUp .newsletter .email input{
+    color: #202020;
     width: 100%;
     border: none;
     outline: none;
@@ -119,19 +130,18 @@ p{
     border-bottom: 1px solid;
     padding: 1.25%;
     font-size: 1.17vw;
-    line-height: 1.5;
+    font-family: 'Playfair Display', serif;
     transition: 0.1s ease-in-out;
 }
 .signUp .newsletter .email input::placeholder{
     color: #626262;
     font-family: 'Playfair Display', serif;
     font-size: 1.17vw;
-    font-weight: 400;
 }
 .signUp .newsletter .email input:focus{
-    color: #626262;
+    color: #202020;
     font-family: 'Playfair Display', serif;
-    transform: scale(1.05);
+    border-bottom-color: indianred;
 }
 .signUp .newsletter .email a{
     font-family: 'Playfair Display', serif;
@@ -150,7 +160,7 @@ p{
 }
 .signUp .newsletter .email a i:hover{
     color: indianred;
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 .load{
     text-align: center;
@@ -160,18 +170,16 @@ p{
     padding: calc(5%/3) calc(35%/12);background: transparent;
     border: calc(1vw/12) solid;
     border-color: #626262;
-    transition: 0.1s ease-in-out;
-}
-.load button:hover{
-    background-color: #f0f0f0;
-    transform: scale(1.1);
-}
-.load button a{
     color: #626262;
     font-family: 'Playfair Display', serif;
     font-size: 1.7vw;
     font-weight: 400;
-    text-decoration: none;
+    transition: 0.1s ease-in-out;
+}
+.load button:hover{
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transform: scale(1.1);
 }
 footer{
     display: flex;
@@ -187,12 +195,17 @@ footer .terms p{
     margin-bottom: 0;
 }
 footer .terms p a{
-    color: #000000;
+    color: #202020;
     font-family: 'Playfair Display', serif;
     font-size: 1.17vw;
     font-weight: 400;
     text-decoration: none;
 }
+
+footer .terms p a:hover{
+    color: indianred;
+}
+
 footer .socials{
     width: calc(35vw/3);
 }
@@ -204,8 +217,15 @@ footer .socials ul{
     margin: auto;
 }
 
+footer .socials ul li{
+    color: #202020;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.17vw;
+    font-weight: 400;
+}
+
 footer .socials ul li a{
-    color: #000000;
+    color: #202020;
     font-family: 'Playfair Display', serif;
     font-size: 1.17vw;
     font-weight: 400;
