@@ -184,7 +184,7 @@ p{
 footer{
     display: flex;
     justify-content: space-between;background-color: #f0f0f0;
-    padding: calc(10%/3) 5% 3.75% 12.5%;
+    padding: calc(10%/3) 12.5% 3.75% 12.5%;
 }
 footer .terms{
     display: flex;
